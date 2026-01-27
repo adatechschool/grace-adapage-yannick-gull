@@ -1,29 +1,30 @@
-import { Outlet } from "react-router-dom";
+import { Outlet, Link } from "react-router-dom";
 import Navbar from "./Navbar";
 
 export default function Layout() {
   return (
-    <div className="min-h-screen p-6 flex flex-col">
-      
-      
-      <header className="flex items-center justify-between border-2 border-black rounded-2xl p-4 mb-4">
-        <div className="border-2 border-black rounded-xl px-4 py-2 font-bold">
-          <img src="/logobobmarley.png" alt="logo bob marley" />
-        </div>
+    <div className="min-h-screen flex flex-col">
+      <header className="flex items-center justify-between px-6 py-1 border-b">
+        
+        
+        <Link to="/" className="flex items-center">
+          <img
+            src="/logobobmarley.png"
+            alt="Logo"
+            className="h-40 w-auto cursor-pointer"
+          />
+        </Link>
 
         <Navbar />
       </header>
 
-      
-      <main className="flex-1 border-2 border-black rounded-2xl p-4">
+      <main className="flex-1 px-6 py-4">
         <Outlet />
       </main>
 
-      
-      <footer className="border-2 border-black rounded-2xl p-4 mt-4 text-center">
+      <footer className="px-6 py-2 text-sm text-center">
         footer
       </footer>
-
     </div>
   );
 }
