@@ -1,14 +1,13 @@
-import { useState } from 'react'
-import './App.css'
+import Navbar from "./components/Navbar.tsx";
+import './App.css';
 
-function App() {
-  
+function App(){
 
-  return (
+  return(
     <>
-      <h1>HELLO</h1>
+    <Navbar />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
