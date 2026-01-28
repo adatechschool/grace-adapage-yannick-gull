@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <nav className="flex gap-3">
+    <nav className="flex gap-30">
       <NavLink
         to="/specialite"
         className={({ isActive }) =>
@@ -13,7 +13,7 @@ export default function Navbar() {
           }`
         }
       >
-        spec
+        Specialite
       </NavLink>
 
       <NavLink
@@ -24,7 +24,7 @@ export default function Navbar() {
           }`
         }
       >
-        citation
+        Citation
       </NavLink>
 
       <NavLink
@@ -35,7 +35,7 @@ export default function Navbar() {
           }`
         }
       >
-        frise
+        Frise
       </NavLink>
     </nav>
   );
