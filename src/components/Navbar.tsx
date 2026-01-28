@@ -1,27 +1,43 @@
-const Navbar: React.FC = () => {
+
+
+import { NavLink } from "react-router-dom";
+
+export default function Navbar() {
   return (
-    <header className="w-full bg-slate-800 text-white shadow-sm">
-      <div className="flex justify-between items-center-safe px-6 py-4">
-        {/* Logo */}
-        <h1 className="m-0 text-2xl font-bold text-purple-600">
-          Logo
-        </h1>
+    <nav className="flex gap-3">
+      <NavLink
+        to="/specialite"
+        className={({ isActive }) =>
+          `px-4 py-2 border-2 border-black rounded-xl ${
+            isActive ? "bg-black text-white" : ""
+          }`
+        }
+      >
+        spec
+      </NavLink>
 
-        {/* Navigation */}
-        <nav className="flex gap-20">
-          <button className="px-4 py-2 border-2 border-gray-800 rounded-lg hover:bg-gray-800 hover:text-white transition">
-            Spec
-          </button>
-          <button className="px-4 py-2 border-2 border-gray-800 rounded-lg hover:bg-gray-800 hover:text-white transition">
-            Citation
-          </button>
-          <button className="px-4 py-2 border-2 border-gray-800 rounded-lg hover:bg-gray-800 hover:text-white transition">
-            Frize
-          </button>
-        </nav>
-      </div>
-    </header>
+      <NavLink
+        to="/citation"
+        className={({ isActive }) =>
+          `px-4 py-2 border-2 border-black rounded-xl ${
+            isActive ? "bg-black text-white" : ""
+          }`
+        }
+      >
+        citation
+      </NavLink>
+
+      <NavLink
+        to="/frise"
+        className={({ isActive }) =>
+          `px-4 py-2 border-2 border-black rounded-xl ${
+            isActive ? "bg-black text-white" : ""
+          }`
+        }
+      >
+        frise
+      </NavLink>
+    </nav>
   );
-};
+}
 
-export default Navbar;
