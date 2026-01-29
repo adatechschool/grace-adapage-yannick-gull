@@ -19,7 +19,7 @@ export default function Specialite() {
         {specialites.map((specialite) => (
           <div
             key={specialite.id}
-            className="rounded-2xl border-2 border-[#009D4F] p-5 bg-yellow-300 shadow-sm"
+            className="rounded-2xl border-4 border-[#009D4F] p-5 bg-yellow-300 shadow-sm"
           >
             <div className="flex items-center gap-3">
               <span className="inline-block h-3 w-3 rounded-full bg-[#009D4F]" />

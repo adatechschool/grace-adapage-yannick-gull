@@ -19,7 +19,7 @@ export default function Citation() {
         {citations.map((citation) => (
           <div
             key={citation.id}
-            className="rounded-2xl border-2 border-black bg-[#FFE01F] p-5 shadow-sm"
+            className="rounded-2xl border-4 border-[#009D4F] bg-[#FFE01F] p-5 shadow-sm"
           >
             
             <p className="text-base leading-relaxed ">
@@ -33,7 +33,7 @@ export default function Citation() {
               </span>
 
               {citation.theme && (
-                <span className="text-xs font-semibold border-2 border-black rounded-full px-3 py-1">
+                <span className="text-xs font-semibold border-2 border-[#009D4F] rounded-full px-3 py-1">
                   {citation.theme}
                 </span>
               )}
