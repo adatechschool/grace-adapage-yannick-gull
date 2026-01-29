@@ -13,7 +13,7 @@ export default function Specialite() {
     <div className="mx-auto w-full max-w-5xl">
       <h1 className="text-2xl font-bold text-center">Spécialités</h1>
 
-      <img src="bobmarleydrapeau.jpg" alt="" />
+      <img className=" mt-8 w-full h-auto rounded-xl sm:rounded-2xl shadow-2xl border-4 sm:border-6 lg:border-8 border-[#f5ebf4] object-contain hover:scale-105 transition-transform duration-300" src="bobmarleydrapeau.jpg" alt="" />
 
       <div className=" mt-10 grid grid-cols-1 md:grid-cols-2 gap-6">
         {specialites.map((specialite) => (

@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 export default function Layout() {
   return (
     <div className="min-h-screen flex flex-col">
-      <header className=" bg-white flex items-center justify-between px-6 py-1 border-b">
+      <header className=" stiky-top0 bg-[#F6F6F5] flex items-center justify-between px-6 py-1 border-b">
         
         <Link to="/" className="flex items-center">
           <img
