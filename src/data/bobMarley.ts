@@ -10,6 +10,7 @@ export const bobMarley = {
   genre: "Reggae",
   movement: "Rastafari",
   image: "/bobmarley.jpg",
+  image1: "/bobmarleybn.jpg",
 
   // ───────────────────────────
   // NAISSANCE / DÉCÈS
