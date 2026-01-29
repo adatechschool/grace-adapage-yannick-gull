@@ -8,8 +8,8 @@ export default function Navbar() {
       <NavLink
         to="/specialite"
         className={({ isActive }) =>
-          `px-4 py-2 border-2 border-black rounded-xl ${
-            isActive ? "bg-black text-white" : ""
+          `px-4 py-2 border-2 border-white text-white rounded-xl ${
+            isActive ? "bg-[#4C4320] text-white" : ""
           }`
         }
       >
@@ -19,8 +19,8 @@ export default function Navbar() {
       <NavLink
         to="/citation"
         className={({ isActive }) =>
-          `px-4 py-2 border-2 border-black rounded-xl ${
-            isActive ? "bg-black text-white" : ""
+          `px-4 py-2 border-2 border-white text-white rounded-xl ${
+            isActive ? "bg-[#4C4320] text-white" : ""
           }`
         }
       >
@@ -30,8 +30,8 @@ export default function Navbar() {
       <NavLink
         to="/frise"
         className={({ isActive }) =>
-          `px-4 py-2 border-2 border-black rounded-xl ${
-            isActive ? "bg-black text-white" : ""
+          `px-4 py-2 border-2 border-white text-white rounded-xl ${
+            isActive ? "bg-[#4C4320] text-[#4C4320]" : ""
           }`
         }
       >
