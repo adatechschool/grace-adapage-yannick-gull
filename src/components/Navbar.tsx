@@ -13,7 +13,7 @@ export default function Navbar() {
           }`
         }
       >
-        Specialite
+        Spécialité
       </NavLink>
 
       <NavLink
