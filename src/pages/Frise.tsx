@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { bobMarley } from "../data/bobMarley";
 
 type TimelineEvent = {
-  id?: number | string;
+  id: number; 
   year: number;
   event: string;
 };
