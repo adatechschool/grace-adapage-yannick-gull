@@ -12,7 +12,7 @@ export default function Frise() {
 
   return (
     <div className="mx-auto w-full max-w-5xl">
-      <h1 className="text-2xl font-bold text-center text-[#009D4F]">
+      <h1 className=" font-righteous text-4xl font-bold text-center text-[#009D4F]">
         Frise chronologique
       </h1>
 

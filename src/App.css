@@ -11,6 +11,10 @@
   
 }
 
+.font-righteous {
+  font-family: "Righteous", cursive;
+}
+
 
 @keyframes slideInLeft {
   from {

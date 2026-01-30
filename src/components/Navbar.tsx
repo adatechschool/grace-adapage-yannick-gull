@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 
 const linkClass = ({ isActive }:{isActive: boolean}) =>
-  `px-4 py-2 border-2 border-white text-white rounded-xl transition
+  ` font-righteous px-4 py-2 border-2 border-white text-white rounded-xl transition
    hover:bg-[#4C4320] hover:text-white
    ${isActive ? "bg-[#4C4320] text-white" : ""}`;
 

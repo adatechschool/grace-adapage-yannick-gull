@@ -8,7 +8,7 @@ export default function Layout() {
         <div className="flex items-center justify-between w-full px-4 py-2">
           {/* Logo à gauche */}
           <Link to="/" className="flex items-center">
-            <img src="/logobobmarley.png" alt="Logo" className="h-25 w-auto" />
+            <img src="/bobmarleylogo.png" alt="Logo" className="h-25 w-auto" />
           </Link>
 
           {/* Navbar à droite */}

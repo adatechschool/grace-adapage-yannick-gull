@@ -11,7 +11,7 @@ export default function Specialite() {
 
   return (
     <div className="mx-auto w-full max-w-5xl">
-      <h1 className="text-2xl font-bold text-center">Spécialités</h1>
+      <h1 className=" font-righteous text-4xl font-bold text-center text-[#009D4F]">Spécialités</h1>
 
       <img className=" mt-8 w-full h-auto rounded-xl sm:rounded-2xl border-4 sm:border-6 lg:border-8 border-[#d0e47e] object-contain hover:scale-105 transition-transform duration-300" src="bobmarleydrapeau.jpg" alt="" />
 

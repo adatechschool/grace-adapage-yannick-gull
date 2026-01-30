@@ -4,7 +4,7 @@ export default function Home(){
     return(
      <div className="min-h-screen bg-linear-to-br from-[#fafbfb] via-[#f5f5f3] to-white p-4 sm:p-6 lg:p-8">
          <div className="max-w-7xl mx-auto">
-             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center text-[#009D4F] mb-8 sm:mb-10 lg:mb-12">
+             <h1 className=" font-righteous text-3xl sm:text-4xl lg:text-5xl font-bold text-center text-[#009D4F] mb-8 sm:mb-10 lg:mb-12">
                  Présentation Bob Marley
              </h1>
                 
